@@ -1,0 +1,115 @@
+TED - Teaching AI to explain its decisions
+
+Background: many new applications (using ai)  --> for efficiency, scale, consistency, etc. ...
+    --> But why are this models to exactly what they do?
+
+    --> it is opaque for the user what the model is doing <- user doesn't know on how the decision was done
+
+Therefor TED is introduced
+    - two exaples (illustrating generality and effectiveness of the approaches)
+--> They want to show for human mentals on how the decision within the model is done.
+
+
+
+The demand for explanation increases by using a certain model for certain domains in higher stakes of this domains
+--> The systems have to provide "meaningful informations" <-- to get an understanding of why exactly this decision was done
+
+
+meaningful Informations = [Selbst and Powles 31] --> info that should be understandable to the audience (potentially indivuduals who lack specific expertise), is actionable, and is flexible enough to support varous technical approaches
+
+(braucht man z.b. in Deep NN, in denen auch kein Experte alles erklären kann)
+
+
+
+
+TED just uses a different approach (most use simpler proxy models, only inner structures, ...), but TED explains each decision (produces decision explainable)
+
+
+Contributions:
+    - Challenge description (providing meaningful informations)
+    - Framework TED: enables machine learning algorithms to provide meaningful explanations that match the complexity and domain of consumers
+    - demo (two samples)
+
+
+
+
+
+CHALLENGE: (Section 2)
+big challenge --> no human-to-human system for explanations (thus no for system-to-human) <-- in mathematics e.g. a formal system for explanations is given
+
+Explanation Characteristics:
+1. Justification: increasing trust in decision through justification; often some verifiable informations (verification by consumer possible)
+2. Complexity Match: expl. complexity equals the complexity capability of consumer; e.g. (Explanation for statistican can be a formel, but not for a truck driver)
+3. Domain Match: tailored to the domain <-- with relevant domain terms;
+
+Explanation (for AI Systems) Interestors:
+1. End User Decision Maker : people using the decision (e.g. physicans, managers, ...) <- trust and understanding for further decisions
+2. Affected Users : affected by the recommendations of the system (e.g. patients, ... ) <- am i treated fairly? Why did this happen?
+3. Regulatory Bodies : Government agencies (--> citizens are treated fair, ...)
+4. AI System Builders : deployer, builder, ... -> want to know if the system works as it should <- to know how to improve it etc.
+
+--> now single explanation will help. Each is individual based on complexity, domain knowledge, ...
+
+
+
+
+
+Explanation how TED works:
+To understand the motivation for the TED approach, consider
+the common situation when a new employee is being trained for
+their new job, such as a loan approval officer. The supervisor will
+show the new employee several example situations, such as loan ap-
+plications, and teach them the correct action: approve or reject, and
+explain the reason for the action, such as “insufficient salary”. Over
+time, the new employee will be able to make independent decisions
+on new loan applications and will give explanations based on the
+explanations they learned from their supervisor. This is analogous
+to how the TED framework works. We ask the training dataset to
+teach us, not only how to get to the correct answer (approve or
+reject), but also to provide the correct explanation, such as “insuffi-
+cient salary”, “too much existing debt”, “insufficient job stability”,
+“incomplete application”, etc. From this training information, we
+will generate a model that, for new input, will predict answers and
+provide explanations based on the explanations it was trained on.
+Because these explanations are the ones that were provided by
+the training, they are relevant to the target domain and meet the
+complexity level of the explanation consumer.
+Previous researchers have demonstrated that providing expla-
+nations with the training dataset may not add much of a burden
+to the training time and may improve the overall accuracy of the
+training data [25, 37–39].
+
+
+
+
+
+Training TED:
+X : normal data
+Y : Label
+E (new) : Explanation for Y
+
+--> each unique E with identifier (regardless of the format) <-- each format is possible
+
+Prediction of unseen X:
+YE (because of the cartesian approach used here a combi of Y and E) <- get the seperate Components (Y/E) by decoding step
+
+Example (cancer treatments):
+--> augmentation needed (!)
+-> adding E to the normal sets (explaining why treatment at the certain patient is done)
+
+--> traditional label created from cartesian combination of treatment and explanation (Y + E -> YE)
+
+
+
+TED Evaluation:
+Question 1: How useful are the explanations produced by the TED approach?
+Question 2: How is the prediction accuracy impacted by incorporating explanations into the training dataset?
+
+Answering everything is out of scope -> thus this two qustions --> based on cartesian product instantiation on two diff. ml algos
+(here tic-tac-toe and loan repayment --< both synthetic (because nothing exists yet with explanations))
+
+
+
+TicTacToe:
+- predict best moves (based on rules the dataset is created [<- labels])
+
