@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.5.2)  22 AUG 2025 17:40
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.5.2)  22 AUG 2025 17:48
  restricted system commands enabled.
 **report.tex
 (./report.tex
@@ -552,7 +552,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 Missing character: There is no – (U+2013) in font ptmr8t!
 Missing character: There is no – (U+2013) in font ptmr8t!
 Missing character: There is no – (U+2013) in font ptmr8t!
-]) (./Sections/UI-Elemente.tex
+]) (./Sections/Designprinzipien.tex
 
 [2
 Missing character: There is no – (U+2013) in font ptmr8t!
@@ -560,7 +560,9 @@ Missing character: There is no „ (U+201E) in font ptmr8t!
 Missing character: There is no “ (U+201C) in font ptmr8t!
 ]
 
-[3
+[3]) (./Sections/UI-Elemente.tex
+
+[4
 Missing character: There is no „ (U+201E) in font ptmr8t!
 Missing character: There is no “ (U+201C) in font ptmr8t!
 Missing character: There is no „ (U+201E) in font ptmr8t!
@@ -583,39 +585,64 @@ Missing character: There is no „ (U+201E) in font ptmr8t!
 Missing character: There is no “ (U+201C) in font ptmr8t!
 Missing character: There is no „ (U+201E) in font ptmr8t!
 Missing character: There is no “ (U+201C) in font ptmr8t!
-]) (./report.bbl
+]) ("./Sections/User Flows und Interaktionen.tex"
+
+[5]) (./Sections/Barrierefreiheit.tex
+
+[6]) ("./Sections/Technische Umsetzung.tex"
+
+[7]) (./Sections/Learnings.tex
+
+[8]) (./report.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 8.
 
 )
 
-[4] (./report.aux)
+[9] (./report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-14>
  ***********
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 2BD28D768F63142E41B2285926C7AA67;1506.
+
+
+Package rerunfilecheck Warning: File `report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report.out':
+(rerunfilecheck)             Before: 2BD28D768F63142E41B2285926C7AA67;1506
+(rerunfilecheck)             After:  BC5301A0E25D0B55D0BCDCD107C17582;2183.
 )
 
 Here is how much of LuaTeX's memory you used:
- 12675 strings out of 471925
+ 12735 strings out of 471925
  125240,662416 words of node,token memory allocated
- 1094 words of node memory still in use:
-   4 hlist, 1 vlist, 1 rule, 1 local_par, 6 glue, 89 kern, 1 penalty, 1 margin_k
-ern, 4 glyph, 42 attribute, 55 glue_spec, 42 attribute_list, 1 write nodes
-   avail lists: 2:487,3:222,4:163,5:231,6:60,7:9187,8:1,9:311,10:24,11:744
- 38970 multiletter control sequences out of 65536+600000
+ 1112 words of node memory still in use:
+   4 hlist, 1 vlist, 1 rule, 1 local_par, 6 glue, 91 kern, 1 penalty, 1 margin_k
+ern, 4 glyph, 44 attribute, 55 glue_spec, 44 attribute_list, 1 write nodes
+   avail lists: 2:430,3:212,4:159,5:221,6:57,7:9187,8:1,9:311,10:24,11:744
+ 38985 multiletter control sequences out of 65536+600000
  49 fonts using 3109687 bytes
- 72i,8n,75p,1124b,419s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,8n,75p,1124b,400s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.1'
 {c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2025/texmf-
 dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2025/texmf-dist/fonts/type1/public/
 lm/lmtt10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/t
 exlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on report.pdf (4 pages, 64125 bytes).
+Output written on report.pdf (9 pages, 66758 bytes).
 
-PDF statistics: 85 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 131072)
+PDF statistics: 115 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
+ 32 named destinations out of 1000 (max. 131072)
  89 words of extra memory for PDF output out of 10000 (max. 100000000)
 
