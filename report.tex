@@ -1,28 +1,5 @@
 \documentclass{article}
-
-
-% if you need to pass options to natbib, use, e.g.:
-%     \PassOptionsToPackage{numbers, compress}{natbib}
-% before loading neurips_2023
-
-
-% ready for submission
 \usepackage[preprint]{neurips_2023}
-
-
-% to compile a preprint version, e.g., for submission to arXiv, add add the
-% [preprint] option:
-%     \usepackage[preprint]{neurips_2023}
-
-
-% to compile a camera-ready version, add the [final] option, e.g.:
-%     \usepackage[final]{neurips_2023}
-
-
-% to avoid loading the natbib package, add option nonatbib:
-%    \usepackage[nonatbib]{neurips_2023}
-
-
 \usepackage[utf8]{inputenc} % allow utf-8 input
 \usepackage[T1]{fontenc}    % use 8-bit T1 fonts
 \usepackage[ngerman]{babel} % deutsche Silbentrennung und Lokalisierung
@@ -34,32 +11,27 @@
 \usepackage{microtype}      % microtypography
 \usepackage{xcolor}         % colors
 \usepackage{graphicx}
+\usepackage[table]{xcolor} % table-Option erlaubt Farbfelder in Tabellen
 
+% Eigene Farben definieren
+\definecolor{Primärblau}{HTML}{45B3CB}
+\definecolor{Weiss}{HTML}{FFFFFF}
+\definecolor{Schwarz}{HTML}{000000}
+\definecolor{Hellgrau}{HTML}{F6F6F6}
+\definecolor{Warnorange}{HTML}{FF8000}
+\definecolor{Tuerkisgruen}{HTML}{176272}
 
 \title{Documentation Project DISTP}
-
-
-% The \author macro works with any number of authors. There are two commands
-% used to separate the names and addresses of multiple authors: \And and \AND.
-%
-% Using \And between authors leaves it to LaTeX to determine where to break the
-% lines. Using \AND forces a line break at that point. So, if LaTeX puts 3 of 4
-% authors names on the first line, and the last on the second line, try using
-% \AND instead of \And before the third author name.
-
 
 \author{%
   Group 3 \\
   Otto-Friedrich University Bamberg\\
-  \texttt{\dots} \\ 
+  Design Interaktiver Systeme in Theorie und Praxis (HCI-DISTP-B) \\ 
+  22. August 2025 \\
 }
 
-
 \begin{document}
-
-
 \maketitle
-
 
 \begin{abstract}
 Diese Dokumentation und Designspezifikation beschreibt die Entwicklung einer medizinischen Anwendung zur kontinuierlichen Überwachung von Vorhofflimmern. Ziel ist es, Patient:innen eine zuverlässige und nutzerfreundliche Lösung bereitzustellen, die frühzeitig Anomalien erkennt und eine effiziente Kommunikation zwischen allen Beteiligten ermöglicht. Die Anwendung integriert Sensordaten, intelligente Algorithmen zur Analyse von Herzrhythmen sowie eine übersichtliche Benutzeroberfläche zur Darstellung relevanter Informationen. Durch den modularen Aufbau ist eine Erweiterung um zusätzliche Diagnose- und Monitoring-Funktionen möglich.
@@ -70,13 +42,7 @@ Diese Dokumentation und Designspezifikation beschreibt die Entwicklung einer med
 \input{Sections/3_Designprinzipien.tex}
 \input{Sections/4_UI-Elemente.tex}
 \input{Sections/5_User Flows und Interaktionen.tex}
-\input{Sections/6_Barrierefreiheit.tex}
 \input{Sections/7_Technische Umsetzung.tex}
 \input{Sections/8_Learnings.tex}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\bibliographystyle{plainnat}
-\bibliography{bibliography}
 
 \end{document}

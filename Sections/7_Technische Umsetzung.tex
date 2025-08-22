@@ -1,3 +1,46 @@
 \section{Technische Umsetzung}
+Die App setzt auf eine nahtlose Integration zwischen Smartphone und Smartwatch. Die Smartwatch dient als primäre Sensoreinheit für Herzfrequenz-, Blutdruck- oder EKG-Messungen. Über Bluetooth Low Energy (BLE) werden die Daten energieeffizient und in Echtzeit an die App übertragen.
+Der Vorteil: Messungen lassen sich auch unterwegs direkt über die Uhr starten, während die App alle Werte automatisch synchronisiert. Ausserdem wird einem Notfallkontakt direkter Zugriff auf die Gesundheitsdaten des Patienten gewährt um so das Sicherheitsgefühl zu erhöhen
+
+\subsection{Hauptfunktionen auf dem Smartphone}
+\begin{enumerate}
+	\item \textbf{Datenverarbeitung:} 
+	Rohdaten werden lokal vorverarbeitet, um Durchschnittswerte, Trends und 
+	potenzielle Auffälligkeiten in Echtzeit zu berechnen.
+	\item \textbf{Visualisierung:} 
+	Messungen werden in Diagrammen dargestellt, inklusive Zeitverläufen und 
+	Vergleichswerten.
+	\item \textbf{Feedback:} 
+	Kritische Werte lösen sofort Warnungen oder Empfehlungen aus, 
+	z.B. bei auffälliger Herzfrequenz.
+\end{enumerate}
+
+Bei besonders auffälligen Messungen kann automatisch eine Warnung an hinterlegte Angehörige gesendet werden, z. B. per Push-Mitteilung oder SMS.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\linewidth]{images/PulsÜbersicht}
+	\caption{Visualisierung des Pulses}
+	\label{fig:pulsubersicht}
+\end{figure}
+
+\subsection{Sicherheit und Privatsphäre}
+\begin{itemize}
+	\item \textbf{Ende-zu-Ende-Verschlüsselung:} 
+	Alle Messdaten werden verschlüsselt zwischen Smartwatch und Smartphone übertragen.
+	\item \textbf{Lokale Speicherung:} 
+	Sensible Daten bleiben standardmässig nur auf dem Gerät.
+	\item \textbf{Feingranulare Berechtigungen:} 
+	Nutzer können gezielt steuern, welche Sensoren oder Funktionen freigegeben werden.
+	\item \textbf{Automatische Löschroutinen:} 
+	Ältere Daten werden nach einem definierten Zeitraum automatisch entfernt.
+\end{itemize}
+
+\subsection{Transparente Kommunikation}
+Die App informiert klar über jede Datenerhebung. 
+Sicherheitshinweise, Bestätigungsdialoge und optische Marker 
+(z.B. ein grünes Schloss-Symbol bei verschlüsselter Verbindung) 
+schaffen Vertrauen -- gerade für ältere Nutzer, die besonderen Wert 
+auf Datenschutz und einfache Bedienung legen.
 
 \newpage
