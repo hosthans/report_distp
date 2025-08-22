@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.5.2)  22 AUG 2025 22:10
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.5.2)  22 AUG 2025 23:55
  restricted system commands enabled.
 **report.tex
 (./report.tex
@@ -503,9 +503,31 @@ Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \minrowclearance=\skip62
 \rownum=\count301
 )
+(c:/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(c:/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(c:/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen177
+\captionmargin=\dimen178
+\caption@leftmargin=\dimen179
+\caption@rightmargin=\dimen180
+\caption@width=\dimen181
+\caption@indent=\dimen182
+\caption@parindent=\dimen183
+\caption@hangindent=\dimen184
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count302
+\c@continuedfloat=\count303
+Package caption Info: hyperref package is loaded.
+)
 (c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
 File: l3backend-luatex.def 2025-04-14 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count302
+\l__color_backend_stack_int=\count304
 Inserting `l3color' in `luaotfload.parse_color'.)
 (./report.aux
 Package babel Info: 'ngerman' activates 'ngerman' shorthands.
@@ -513,26 +535,26 @@ Package babel Info: 'ngerman' activates 'ngerman' shorthands.
 )
 \openout1 = report.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -600,44 +622,46 @@ LaTeX Font Info:    ... okay on input line 33.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 33.
+Package hyperref Info: Link coloring OFF on input line 38.
 (./report.out) (./report.out)
 \@outlinefile=\write3
 
 \openout3 = report.out
-LaTeX Info: Redefining \microtypecontext on input line 33.
-Package microtype Info: Applying patch `item' on input line 33.
-Package microtype Info: Applying patch `toc' on input line 33.
-Package microtype Info: Applying patch `eqnum' on input line 33.
-Package microtype Info: Applying patch `footnote' on input line 33.
-Package microtype Info: Applying patch `verbatim' on input line 33.
-LaTeX Info: Redefining \microtypesetup on input line 33.
+LaTeX Info: Redefining \microtypecontext on input line 38.
+Package microtype Info: Applying patch `item' on input line 38.
+Package microtype Info: Applying patch `toc' on input line 38.
+Package microtype Info: Applying patch `eqnum' on input line 38.
+
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 38.
+
+Package microtype Info: Applying patch `verbatim' on input line 38.
+LaTeX Info: Redefining \microtypesetup on input line 38.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 33.
+LaTeX Info: Redefining \showhyphens on input line 38.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
-
 (c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count303
-\scratchdimen=\dimen177
+\scratchcounter=\count305
+\scratchdimen=\dimen185
 \scratchbox=\box56
-\nofMPsegments=\count304
-\nofMParguments=\count305
+\nofMPsegments=\count306
+\nofMParguments=\count307
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count306
-\MPscratchDim=\dimen178
-\MPnumerator=\count307
-\makeMPintoPDFobject=\count308
+\MPscratchCnt=\count308
+\MPscratchDim=\dimen186
+\MPnumerator=\count309
+\makeMPintoPDFobject=\count310
 \everyMPtoPDFconversion=\toks29
 ) (c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -648,11 +672,14 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
 (c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
 
 
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -661,7 +688,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
 
 
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -671,13 +698,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 (./Sections/1_Einleitung.tex
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 8
-.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+0.
 
 (c:/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-))
-(./Sections/2_Projektkontext.tex
+)
 
 [1
 
@@ -686,97 +712,97 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 Missing character: There is no – (U+2013) in font ptmr8t!
 Missing character: There is no – (U+2013) in font ptmr8t!
 Missing character: There is no – (U+2013) in font ptmr8t!
-]
+]) (./Sections/2_Projektkontext.tex
 
 [2
 Missing character: There is no – (U+2013) in font ptmr8t!
 ]
-<images/Sprachauswahl.png, id=123, 408.52625pt x 847.165pt>
+<images/Sprachauswahl.png, id=144, 408.52625pt x 847.165pt>
 File: images/Sprachauswahl.png Graphic file (type png)
 <use images/Sprachauswahl.png>
 Package luatex.def Info: images/Sprachauswahl.png  used on input line 44.
 (luatex.def)             Requested size: 119.2467pt x 247.27446pt.
 
 Underfull \hbox (badness 7869) in paragraph at lines 45--45
-[]\T1/ptm/m/n/10 Ab-bil-dung 1: []Onboarding:
+[]\T1/ptm/m/n/10 Ab-bil-dung 1: |On-boar-ding:
  []
 
-<images/Registrierung.png, id=124, 408.52625pt x 847.165pt>
+<images/Registrierung.png, id=145, 408.52625pt x 847.165pt>
 File: images/Registrierung.png Graphic file (type png)
 <use images/Registrierung.png>
 Package luatex.def Info: images/Registrierung.png  used on input line 51.
 (luatex.def)             Requested size: 119.2467pt x 247.27446pt.
-<images/Homescreen mit Symptomtagebuch.png, id=125, 408.52625pt x 847.165pt>
+<images/Homescreen mit Symptomtagebuch.png, id=146, 408.52625pt x 847.165pt>
 File: images/Homescreen mit Symptomtagebuch.png Graphic file (type png)
 <use images/Homescreen mit Symptomtagebuch.png>
 Package luatex.def Info: images/Homescreen mit Symptomtagebuch.png  used on inp
 ut line 58.
 (luatex.def)             Requested size: 119.2467pt x 247.27446pt.
+
+
+[3<./images/Sprachauswahl.png><./images/Registrierung.png><./images/Homescreen m
+it Symptomtagebuch.png>]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7
 1.
-(c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+ (c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<images/Anzeige-Groß.png, id=126, 123.46124pt x 114.4275pt>
+<images/Anzeige-Groß.png, id=155, 318.18875pt x 305.14pt>
 File: images/Anzeige-Groß.png Graphic file (type png)
 <use images/Anzeige-Groß.png>
 Package luatex.def Info: images/Anzeige-Groß.png  used on input line 80.
-(luatex.def)             Requested size: 119.2467pt x 110.5266pt.
+(luatex.def)             Requested size: 119.2467pt x 114.3527pt.
 
 Underfull \hbox (badness 7433) in paragraph at lines 81--81
-[]\T1/ptm/m/n/10 Ab-bil-dung 4: []Angezeigtes
+[]\T1/ptm/m/n/10 Ab-bil-dung 4: |An-ge-zeig-tes
  []
 
-<images/Einnahme.png, id=127, 189.70876pt x 173.89969pt>
+<images/Einnahme.png, id=156, 306.14375pt x 244.915pt>
 File: images/Einnahme.png Graphic file (type png)
 <use images/Einnahme.png>
 Package luatex.def Info: images/Einnahme.png  used on input line 87.
-(luatex.def)             Requested size: 139.12216pt x 127.52946pt.
+(luatex.def)             Requested size: 139.12216pt x 111.29822pt.
+) (./Sections/3_Designprinzipien.tex
 
-
-[3
+[4
 Missing character: There is no „ (U+201E) in font ptmr8t!
 Missing character: There is no “ (U+201C) in font ptmr8t!
-<./images/Sprachauswahl.png><./images/Registrierung.png><./images/Homescreen mit
- Symptomtagebuch.png><./images/Anzeige-Groß.png><./images/Einnahme.png>])
-(./Sections/3_Designprinzipien.tex
-<images/Font.png, id=143, 1145.02782pt x 173.14688pt>
+Missing character: There is no – (U+2013) in font ptmr8t!
+Missing character: There is no – (U+2013) in font ptmr8t!
+Missing character: There is no – (U+2013) in font ptmr8t!
+Missing character: There is no – (U+2013) in font ptmr8t!
+<./images/Anzeige-Groß.png><./images/Einnahme.png>]
+<images/Font.png, id=166, 1145.02782pt x 173.14688pt>
 File: images/Font.png Graphic file (type png)
 <use images/Font.png>
 Package luatex.def Info: images/Font.png  used on input line 62.
 (luatex.def)             Requested size: 278.23827pt x 42.07393pt.
 
 
-[4
+[5
 Missing character: There is no – (U+2013) in font ptmr8t!
-Missing character: There is no – (U+2013) in font ptmr8t!
-Missing character: There is no – (U+2013) in font ptmr8t!
-Missing character: There is no – (U+2013) in font ptmr8t!
-Missing character: There is no – (U+2013) in font ptmr8t!
-<./images/Font.png>]
-
-[5]) (./Sections/4_UI-Elemente.tex
-<images/Primärer Button.jpg, id=155, 361.35pt x 77.53969pt>
+<./images/Font.png>]) (./Sections/4_UI-Elemente.tex
+<images/Primärer Button.jpg, id=173, 361.35pt x 77.53969pt>
 File: images/Primärer Button.jpg Graphic file (type jpg)
 <use images/Primärer Button.jpg>
 Package luatex.def Info: images/Primärer Button.jpg  used on input line 15.
 (luatex.def)             Requested size: 178.86702pt x 38.38165pt.
-<images/Sekundärerer Button.jpg, id=156, 478.03593pt x 99.37125pt>
+<images/Sekundärerer Button.jpg, id=174, 478.03593pt x 99.37125pt>
 File: images/Sekundärerer Button.jpg Graphic file (type jpg)
 <use images/Sekundärerer Button.jpg>
 Package luatex.def Info: images/Sekundärerer Button.jpg  used on input line 22
 .
 (luatex.def)             Requested size: 178.86702pt x 37.18073pt.
-<images/Inputfeld.jpg, id=157, 316.18124pt x 297.11pt>
+<images/Inputfeld.jpg, id=175, 316.18124pt x 297.11pt>
 File: images/Inputfeld.jpg Graphic file (type jpg)
 <use images/Inputfeld.jpg>
 Package luatex.def Info: images/Inputfeld.jpg  used on input line 41.
 (luatex.def)             Requested size: 178.86702pt x 168.08054pt.
-<images/Geburtsdatum.jpg, id=158, 376.40625pt x 464.73625pt>
+<images/Geburtsdatum.jpg, id=176, 376.40625pt x 464.73625pt>
 File: images/Geburtsdatum.jpg Graphic file (type jpg)
 <use images/Geburtsdatum.jpg>
 Package luatex.def Info: images/Geburtsdatum.jpg  used on input line 48.
@@ -804,23 +830,24 @@ Missing character: There is no „ (U+201E) in font ptmr8t!
 Missing character: There is no “ (U+201C) in font ptmr8t!
 <./images/Primärer Button.jpg><./images/Sekundärerer Button.jpg><./images/Inpu
 tfeld.jpg><./images/Geburtsdatum.jpg>]
-<images/Dropdown.png, id=168, 316.18124pt x 234.8775pt>
+<images/Dropdown.png, id=186, 316.18124pt x 234.8775pt>
 File: images/Dropdown.png Graphic file (type png)
 <use images/Dropdown.png>
 Package luatex.def Info: images/Dropdown.png  used on input line 70.
 (luatex.def)             Requested size: 178.86702pt x 132.87447pt.
-<images/states.png, id=169, 288.3272pt x 280.79906pt>
+<images/states.png, id=187, 328.22626pt x 325.215pt>
 File: images/states.png Graphic file (type png)
 <use images/states.png>
 Package luatex.def Info: images/states.png  used on input line 90.
-(luatex.def)             Requested size: 158.99156pt x 154.847pt.
+(luatex.def)             Requested size: 158.99156pt x 157.53555pt.
 
 
 [7
 Missing character: There is no „ (U+201E) in font ptmr8t!
 Missing character: There is no “ (U+201C) in font ptmr8t!
 <./images/Dropdown.png><./images/states.png>])
-("./Sections/5_User Flows und Interaktionen.tex"
+("./Sections/5_User Flows und Interaktionen.tex")
+("./Sections/7_Technische Umsetzung.tex"
 
 [8
 Missing character: There is no „ (U+201E) in font ptmr8t!
@@ -839,46 +866,87 @@ Missing character: There is no „ (U+201E) in font ptmr8t!
 Missing character: There is no “ (U+201C) in font ptmr8t!
 Missing character: There is no „ (U+201E) in font ptmr8t!
 Missing character: There is no “ (U+201C) in font ptmr8t!
-]) ("./Sections/7_Technische Umsetzung.tex"
-<images/PulsÜbersicht.png, id=191, 334.24875pt x 263.98625pt>
+]
+<images/PulsÜbersicht.png, id=208, 334.24875pt x 263.98625pt>
 File: images/PulsÜbersicht.png Graphic file (type png)
 <use images/PulsÜbersicht.png>
 Package luatex.def Info: images/PulsÜbersicht.png  used on input line 22.
 (luatex.def)             Requested size: 198.7425pt x 156.97104pt.
+) (./Sections/Extra_Personas.tex
+
+[9<./images/PulsÜbersicht.png>]
+<images/Fred.png, id=218, 921.4425pt x 1230.5975pt>
+File: images/Fred.png Graphic file (type png)
+<use images/Fred.png>
+Package luatex.def Info: images/Fred.png  used on input line 15.
+(luatex.def)             Requested size: 47.69624pt x 63.69287pt.
+<images/Selina.png, id=219, 910.40125pt x 1216.545pt>
+File: images/Selina.png Graphic file (type png)
+<use images/Selina.png>
+Package luatex.def Info: images/Selina.png  used on input line 21.
+(luatex.def)             Requested size: 47.69624pt x 63.72662pt.
+<images/Horst.png, id=220, 828.09375pt x 1240.635pt>
+File: images/Horst.png Graphic file (type png)
+<use images/Horst.png>
+Package luatex.def Info: images/Horst.png  used on input line 27.
+(luatex.def)             Requested size: 47.69624pt x 71.44386pt.
+<images/Heike.png, id=221, 921.4425pt x 921.4425pt>
+File: images/Heike.png Graphic file (type png)
+<use images/Heike.png>
+Package luatex.def Info: images/Heike.png  used on input line 33.
+(luatex.def)             Requested size: 47.69624pt x 47.69173pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]|\T1/ptm/m/n/10 Hei-ke
+ []
 
 
-[9<./images/PulsÜbersicht.png>]) (./Sections/8_Learnings.tex
 
-[10]) (./report.aux)
+[10
+Missing character: There is no „ (U+201E) in font ptmr8t!
+Missing character: There is no “ (U+201C) in font ptmr8t!
+Missing character: There is no „ (U+201E) in font ptmr8t!
+Missing character: There is no “ (U+201C) in font ptmr8t!
+Missing character: There is no „ (U+201E) in font ptmr8t!
+Missing character: There is no “ (U+201C) in font ptmr8t!
+Missing character: There is no „ (U+201E) in font ptmr8t!
+Missing character: There is no “ (U+201C) in font ptmr8t!
+Missing character: There is no „ (U+201E) in font ptmr8t!
+Missing character: There is no “ (U+201C) in font ptmr8t!
+<./images/Fred.png><./images/Selina.png><./images/Horst.png><./images/Heike.png>
+]) ("./Sections/Extra_Journey Map.tex"
+
+[11]) (./Sections/8_Learnings.tex
+
+[12]) (./report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-14>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: EA2A10DEB848FEB71FFDEDBED2962AE4;4431.
+(rerunfilecheck)             Checksum: 68C3CBC714C37B4D57ADB9BC0379C4F1;4960.
 )
 
 Here is how much of LuaTeX's memory you used:
- 14467 strings out of 471925
+ 15910 strings out of 471925
  125240,794899 words of node,token memory allocated
- 2491 words of node memory still in use:
-   5 hlist, 1 vlist, 1 rule, 1 local_par, 9 glue, 263 kern, 1 penalty, 3 glyph, 
-221 attribute, 57 glue_spec, 112 attribute_list, 1 write nodes
-   avail lists: 1:2,2:862,3:248,4:142,5:169,6:69,7:10051,8:1,9:411,10:31,11:1370
-
- 40605 multiletter control sequences out of 65536+600000
+ 3098 words of node memory still in use:
+   5 hlist, 1 vlist, 1 rule, 1 local_par, 9 glue, 358 kern, 1 penalty, 3 glyph, 
+265 attribute, 57 glue_spec, 134 attribute_list, 1 write nodes
+   avail lists: 1:1,2:829,3:254,4:141,5:143,6:66,7:7753,8:1,9:400,10:31,11:1053
+ 42004 multiletter control sequences out of 65536+600000
  51 fonts using 3270567 bytes
- 72i,9n,75p,1002b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,9n,75p,1002b,431s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2025/texmf-d
 ist/fonts/enc/dvips/lm/lm-ec.enc}<c:/texlive/2025/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt10.
 pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/202
 5/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2025/texmf-dist/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (10 pages, 364744 bytes).
+Output written on report.pdf (12 pages, 7826882 bytes).
 
-PDF statistics: 229 PDF objects out of 1000 (max. 8388607)
- 186 compressed objects within 2 object streams
- 60 named destinations out of 1000 (max. 131072)
- 217 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 267 PDF objects out of 1000 (max. 8388607)
+ 213 compressed objects within 3 object streams
+ 65 named destinations out of 1000 (max. 131072)
+ 257 words of extra memory for PDF output out of 10000 (max. 100000000)
 

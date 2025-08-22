@@ -12,6 +12,8 @@
 \usepackage{xcolor}         % colors
 \usepackage{graphicx}
 \usepackage[table]{xcolor} % table-Option erlaubt Farbfelder in Tabellen
+\usepackage{setspace}
+\usepackage{caption} % in die Präambel
 
 % Eigene Farben definieren
 \definecolor{Primärblau}{HTML}{45B3CB}
@@ -21,6 +23,8 @@
 \definecolor{Warnorange}{HTML}{FF8000}
 \definecolor{Tuerkisgruen}{HTML}{176272}
 
+\onehalfspacing
+
 \title{Documentation Project DISTP}
 
 \author{%
@@ -29,6 +33,7 @@
   Design Interaktiver Systeme in Theorie und Praxis (HCI-DISTP-B) \\ 
   22. August 2025 \\
 }
+
 
 \begin{document}
 \maketitle
@@ -43,6 +48,8 @@ Diese Dokumentation und Designspezifikation beschreibt die Entwicklung einer med
 \input{Sections/4_UI-Elemente.tex}
 \input{Sections/5_User Flows und Interaktionen.tex}
 \input{Sections/7_Technische Umsetzung.tex}
+\input{Sections/Extra_Personas.tex}
+\input{Sections/Extra_Journey Map.tex}
 \input{Sections/8_Learnings.tex}
 
 \end{document}
